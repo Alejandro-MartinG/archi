@@ -1,0 +1,36 @@
+{
+  "name": "archi",
+  "version": "1.0.0",
+  "description": "AI agent designed to help you with code and infra",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "test": "jest",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "ts-morph": "^15.1.0",
+    "@google-cloud/monitoring": "^4.1.0",
+    "@google-cloud/logging": "^11.2.0",
+    "openai": "^4.79.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.(ts|tsx)$": "ts-jest"
+    },
+    "testEnvironment": "node",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ]
+  },
+  "author": "amartingon92@gmail.com",
+  "license": "MIT"
+}
