@@ -1,5 +1,6 @@
 # Initial Project Structure
 
+``` 
 ├── ai-agent/
 │   ├── src/
 │   │   ├── analysis/
@@ -19,3 +20,4 @@
 │   ├── package.json
 │   ├── tsconfig.json
 │   ├── README.md
+``` 
